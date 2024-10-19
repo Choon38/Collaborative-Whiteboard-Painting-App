@@ -1,11 +1,21 @@
-This is a Kotlin Multiplatform project targeting Android, Desktop.
+# Collaborative Whiteboard & Painting App
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+## Overview
+The **Collaborative Whiteboard & Painting App** is a multiplatform application designed for real-time collaboration and creative expression. Built using Kotlin Multiplatform and Jetpack Compose, this app allows users to draw, paint, and brainstorm ideas together on a shared canvas.
 
+## Features
+- **Real-Time Collaboration**: Multiple users can interact and contribute simultaneously on the digital whiteboard.
+- **Adaptive Layout**: The app is optimized for various screen sizes, ensuring a seamless experience on mobile and desktop devices.
+- **Painting Tools**: Users can select different brush styles, colors, and tools to create and share their artwork.
+- **Cross-Platform Support**: The app is developed for both Android and desktop platforms using Kotlin Multiplatform, allowing for shared code and consistent performance.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Technologies Used
+- **Kotlin**: The primary programming language for developing the application.
+- **Jetpack Compose**: A modern toolkit for building native UI in Android applications.
+- **Kotlin Multiplatform (KMP)**: Enables code sharing across Android and desktop platforms.
+- **Firebase / Azure**: For real-time data synchronization and storage (if implemented).
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Choon38/Collaborative-Whiteboard-Painting-App.git
